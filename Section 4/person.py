@@ -1,4 +1,5 @@
-class Student:
+
+class Person:
     def __init__(self, name, age):
         self.name = name
         self.age = age
@@ -7,14 +8,7 @@ class Student:
         print("Name:", self.name)
         print("Age:", self.age)
 
-s1 = Student("Rahul", 18)
-s2 = Student("Priya", 19)
-s3 = Student("Amit", 20)
 
-s1.display()
-print()
+p1 = Person("Viraj", 17)
 
-s2.display()
-print()
-
-s3.display()
+p1.display()
